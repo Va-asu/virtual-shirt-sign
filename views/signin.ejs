@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <title>my blog</title>
+    <!-- CSS only -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="text-center d-flex justify-content-center align-items-center">
+    <form action="/signin" method="POST">
+      <label><h1>Please sign in</h1> </label>
+      <div class="form-floating mb-3">
+        <input
+          type="text"
+          class="form-control"
+          name="email"
+          id="floatingInput"
+          placeholder="Email"
+          autocomplete="off"
+        />
+        <label for="floatingInput">Email</label>
+      </div>
+      <div class="form-floating">
+        <input
+          type="text"
+          class="form-control"
+          name="password"
+          id="floatingPassword"
+          placeholder="Password"
+          autocomplete="off"
+        />
+        <label for="floatingPassword">Password</label>
+      </div>
+      <div class="form-floating">
+        <button class="w-120 btn btn-lg btn-primary mt-2" type="submit">
+          Sign in
+        </button>
+      </div>
+      <p class="mt-5 mb-3 text-muted">&copy; 2018–2022</p>
+    </form>
+  </body>
+</html>
